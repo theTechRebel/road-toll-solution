@@ -1,3 +1,19 @@
+# Problem
+# Ethereum Blockchain implementation for a Road Toll System
+The project represents a regulated, system of toll roads. Vehicles pay to drive on them. It is regulated in the sense that there is an entity whose role it is to ensure some rules for participants. The end goal is to have all, part or nothing of such a somewhat decentralised system run on an Ethereum blockchain.
+
+# Participants
+This project caters to all of them and they should each hold a piece of the checks and balances:
+
+The regulator
+The road operator(s)
+The toll booth(s)
+The vehicle(s)
+The driver(s)
+Prices
+Prices are defined in Ethers. In other words, road operators will not launch an ICO on their "road use" token ;). You are free to decide how high the prices are, by which criteria and by whom prices are decided.
+
+# Proposed Solution
 # Project Architecture
 Given the project description, my own understanding would be to design the solution into a 3 layer based architecture with each layer dealing with or attempting to solve a specific problem area rather than having everything run on the blockchain. The project would be devided into the following:
 
